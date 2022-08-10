@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francisco Ortal</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css"/>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img height="50" width="50" src="images/graduado.JPG" alt="programador"/>
+          <div class="logotype">
+            Francisco Ortal
+          </div>
+        </a>
+        <ul class="menu">
+          <li><a href="index.html#profile">Perfil</a></li>
+          <li><a href="index.html#experience">Experiencia</a></li>
+          <li><a href="index.html#skills">Habilidades</a></li>
+          <li><a href="index.html#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+          <div class="profile-info">
+            <h1 class="profile-title">Hola, soy <br />Francisco Ortal</h1>
+            <p class="profile-details">
+                Estudiante de Ingeniería Informática con ganas de seguir aprendiendo.
+                Tengo gran capacidad para asumir responsabilidades y adaptarme a
+                todo tipo de entornos, siempre aportando lo mejor de mí. Busco una
+                oportunidad laboral en la que poder desarrollarme profesionalmente y
+                adquirir la mayor experiencia posible
+            </p>
+            <a href="cv.pdf" download="cv" title="Descargar" id="experience"><button class="profile-btn">Descargar cv</button></a>
+          </div>
+          <span class="profile-img-section">
+            <img
+              class="profile-img"
+              src="images/graduado.JPG"
+              height="250"
+              alt="programador"
+            />
+            <div class="profile-img-line"></div>
+          </span>
+        </section>
+      </div>
+  
+      <section class="experiences" id="">
+        <div class="experiences-body">
+          <h2 class="experiences-title">Experiencia laboral</h2>
+          <div class="experiences-grid">
+            <div class="empty"></div>
+            <div class="line"></div>
+            <div class="experience">
+              <div class="experience-date">Febrero 2022 - Mayo2022</div>
+              <div class="experience-company">AUDERE GLOBAL, S.L.</div>
+              <div class="experience-position">Desarrollador Software (Prácticas)</div>
+              <div class="experience-description" id="skills">
+                - Creación de una réplica de los paneles de un avión A320
+                pudiéndose ejecutar para probar el sistema sin un panel físico usando
+                el patrón MVC. <br><br>
+                - Manejar documentación de sistemas de aviones reales incluidos en
+                la documentación del fabricante para implementación de simuladores
+                (Data package). <br><br>
+                - Abstraer dicha información e implementar la lógica de los sistemas y
+                la mensajería asociada a éstos en el ECAM del avión, mediante la
+                programación de puertas lógicas en C++.
+              </div>
+            </div>
+            
+        
+          </div>
+        </div>
+      </section>
+  
+      <div class="horizontal-padding vertical-padding">
+        <section class="skills">
+          <h2 class="skills-title">Habilidades</h2>
+          <ul class="skills-list">
+            <li class="skills-skill">CSS</li>
+            <li class="skills-skill">HTML</li>
+            <li class="skills-skill">Java</li>
+            <li class="skills-skill">Python</li>
+            <li class="skills-skill">Scala</li>
+            <li class="skills-skill">Prolog</li>
+            <li class="skills-skill">Pascal</li>
+            <li class="skills-skill">SQL</li>
+            <li class="skills-skill">Docker</li>
+            <li class="skills-skill">GitHub</li>
+            <li class="skills-skill">C</li>
+            <li class="skills-skill" >C#</li>
+          </ul>
+        </section>
+      </div>
+      <div class="contact-body">
+        <section class="contact">
+            <h2 class="contact-title" id="contact">Contacto</h2>
+            <div class="icons">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+                <p>+34 666 22 39 38</p>
+                <br>
+                <ion-icon name="mail-open-outline"></ion-icon><p>franciscortalruizz@gmail.com</p>
+                <br>
+                <ion-icon name="navigate-circle-outline"></ion-icon><p>Madrid, España</p>
+            </div>
+        </section>
+      </div>
+  </body>
+</html>
