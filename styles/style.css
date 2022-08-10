@@ -305,7 +305,6 @@ ion-icon {
     text-align: center;
 }
 .profile-img {
-  width: 100%;
   max-width: 350px;
   transform: scaleX(-1);
 }
